@@ -49,7 +49,7 @@ class App extends React.Component {
         return (
             <div className="App">
             {this.state.time}
-                <Dumb data={this.state.constant} />
+                <Dumb data={this.state.time} />
             </div>
         );
     }
